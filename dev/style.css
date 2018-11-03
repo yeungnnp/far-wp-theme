@@ -2,7 +2,7 @@
 Theme Name: far
 Theme URI: https://github.com/yeungnnp/far-wp-theme
 Author: yeungn
-Author URI: https://github.com/yeungnnp
+Author URI: https://github.com/yeungnnp/far-wp-theme
 Description: A progressive theme development rig for WordPress.
 Version: 1.0.4
 License: GNU General Public License v3 or later
@@ -771,7 +771,7 @@ textarea {
 	display: block;
 	margin: 0 auto 2em;
 	padding: 0 1em;
-	max-width: var(--content-width)rem;
+	/* max-width: var(--content-width)rem; */
 	font-family: var(--highlight-font-family);
 }
 
@@ -880,7 +880,7 @@ textarea {
 	.main-navigation .menu {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
+		/* justify-content: center; */
 	}
 
 	.main-navigation .menu-item-has-children,
