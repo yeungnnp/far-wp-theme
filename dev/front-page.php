@@ -7,7 +7,7 @@
  * @package wprig
  */
 
-get_header();
+
 
 /*
 * Include the component stylesheet for the content.

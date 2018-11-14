@@ -10,7 +10,9 @@
 		"small-font-size": "16",
 		"regular-font-size": "20",
 		"large-font-size": "36",
-		"larger-font-size": "48"
+		"larger-font-size": "48",
+		"theme-background-color": "#650000",
+		"main-navagation-color": "#E51818"
 	},
 	"queries": {
 		"narrow-menu-query": "screen and (max-width: 37.5em)",

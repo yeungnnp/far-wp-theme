@@ -639,7 +639,7 @@ input[type="submit"] {
 	border-color: #ccc #ccc #bbb;
 	border-radius: 3px;
 	background: #e6e6e6;
-	color: rgba(0, 0, 0, 0.8);
+	color: var(--main-navigation-color);
 	font-size: 0.75rem;
 	line-height: 1;
 	padding: .6em 1em .4em;
@@ -717,7 +717,8 @@ textarea {
 --------------------------------------------------------------*/
 
 .site-header {
-	padding-bottom: 1em;
+	/* padding-bottom: 1em; */
+	background-color: var(--theme-background-color);
 }
 
 .header-image {
@@ -736,7 +737,7 @@ textarea {
 
 .site-branding {
 	text-align: center;
-	padding: 60px 0 1.75em;
+	/* padding: 60px 0 1.75em; */
 }
 
 .site-title {
@@ -782,7 +783,7 @@ textarea {
 	font-family: var(--highlight-font-family);
 	font-size: 80%;
 	text-transform: uppercase;
-	border: 2px solid black;
+	border: 2px solid var(--main-navigation-color);
 	border-radius: 0;
 	background: transparent;
 }
@@ -792,7 +793,7 @@ textarea {
 	width: 100%;
 	padding: .5em 1em .5em 0;
 	text-decoration: none;
-	color: black;
+	color: var(--main-navagation-color);
 }
 
 .main-navigation a:hover,
@@ -992,6 +993,7 @@ textarea {
 	margin: 1em 0 0;
 	padding: 2em 0;
 	font-family: var(--highlight-font-family);
+	background-color: var(--theme-background-color);
 }
 
 .site-info {
